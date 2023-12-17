@@ -2,7 +2,11 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth: {
+        laptop: '90rem',
+      },
+    },
   },
   plugins: [],
 }
