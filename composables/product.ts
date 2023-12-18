@@ -1,5 +1,5 @@
 
-export type Root = Product[]
+export type Products = Product[]
 
 export interface Product {
   id: number
