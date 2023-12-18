@@ -1,5 +1,6 @@
 <template>
   <div
+    :key="product.id"
     class="shadow-complete border-[2px] border-blue-100 border-dashed flex min-h-[22rem] w-full flex-col rounded-2xl bg-white p-1"
   >
     <NuxtLink
@@ -63,5 +64,4 @@ const { product } = defineProps<{
   product: Product;
 }>();
 const loading: Ref<boolean> = ref(true);
-console.log(loading);
 </script>
