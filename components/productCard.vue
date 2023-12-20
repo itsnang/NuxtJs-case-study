@@ -51,8 +51,11 @@
           </p>
         </div>
       </div>
-      <Button :isLink="true" :href="`products/${product.id}`"
-        >View Detail</Button
+      <ButtonLink
+        class="flex justify-center"
+        :isLink="true"
+        :href="`products/${product.id}`"
+        >View Detail</ButtonLink
       >
     </div>
   </div>
